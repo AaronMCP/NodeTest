@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "bin": "node ./lib/buffer.js"
+    "buffer": "node ./lib//buffer.js",
+    "stream": "node ./lib/stream/compress.js",
+    "router": "node ./lib/router"
   },
   "bin": {
     "node-echo": "./bin/node-echo"
