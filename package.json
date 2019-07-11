@@ -5,7 +5,11 @@
   "scripts": {
     "buffer": "node ./lib//buffer.js",
     "stream": "node ./lib/stream/compress.js",
-    "router": "node ./lib/router"
+    "router": "node ./lib/router",
+    "file": "node ./lib/file/read.js",
+    "http": "node ./lib/getAndPost/post",
+    "toolModule": "node ./lib/toolModule/path",
+    "webServer": "node ./lib/webServer/server.js"
   },
   "bin": {
     "node-echo": "./bin/node-echo"
